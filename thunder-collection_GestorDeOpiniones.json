@@ -1,0 +1,451 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "GestorDeOpiniones",
+    "dateExported": "2024-03-02T17:41:46.126Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "71063732-a3d7-4144-bce8-92c83b5e8eeb",
+            "name": "user",
+            "containerId": "",
+            "created": "2024-03-02T15:25:36.635Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "2e30397f-d454-46f9-ae18-6f0d40765c16",
+            "name": "comment",
+            "containerId": "",
+            "created": "2024-03-02T15:25:36.636Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "3a854fb4-204b-4b95-9eda-e743a0e1cd2a",
+            "name": "post",
+            "containerId": "",
+            "created": "2024-03-02T15:25:36.637Z",
+            "sortNum": 30000
+        },
+        {
+            "_id": "3339b684-f6c8-4f80-80d2-7c87584e1ef5",
+            "name": "category",
+            "containerId": "",
+            "created": "2024-03-02T15:25:36.638Z",
+            "sortNum": 40000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "04a2429e-d452-4bb2-9211-de44842c6c56",
+            "colId": "727c9288-6fd3-4600-9650-9d63a52c0a11",
+            "containerId": "71063732-a3d7-4144-bce8-92c83b5e8eeb",
+            "name": "register",
+            "url": "register",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-02T15:25:36.635Z",
+            "modified": "2024-03-02T17:09:42.243Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Fréderic "
+                    },
+                    {
+                        "name": "username",
+                        "value": "frededmundo"
+                    },
+                    {
+                        "name": "email",
+                        "value": "frededmundo@gmail.com"
+                    },
+                    {
+                        "name": "password",
+                        "value": "14725836"
+                    },
+                    {
+                        "name": "phone",
+                        "value": "56954767"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "29d97568-b268-4e4d-8cc2-ae85c340dfe2",
+            "colId": "727c9288-6fd3-4600-9650-9d63a52c0a11",
+            "containerId": "71063732-a3d7-4144-bce8-92c83b5e8eeb",
+            "name": "login",
+            "url": "login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-03-02T15:25:36.637Z",
+            "modified": "2024-03-02T17:29:18.138Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "frededmundo",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "password",
+                        "value": "14725836",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "email",
+                        "value": "juanalverto@gmail.com",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "phone",
+                        "value": "98653265",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "username",
+                        "value": "Junes"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "b19dfa7b-37d0-44fd-8109-7e08db8d6e2c",
+            "colId": "727c9288-6fd3-4600-9650-9d63a52c0a11",
+            "containerId": "71063732-a3d7-4144-bce8-92c83b5e8eeb",
+            "name": "update",
+            "url": "update/65e34580edc5f09d53199508",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-03-02T15:25:36.638Z",
+            "modified": "2024-03-02T17:10:22.531Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzNWQ1NjVlN2E4YTVjNTdhMTEwNGYiLCJ1c2VybmFtZSI6ImZyZWRlZG11bmRvIiwibmFtZSI6IkZyw6lkZXJpYyAiLCJpYXQiOjE3MDkzOTkzOTUsImV4cCI6MTcwOTQxMDE5NX0.OwFaCSZIRw5EjgpBYK9HcH3M580pAZ69JoUmQcfl_2E"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Junalverto"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "cd2e61bc-13e8-438a-b44f-f7082913317e",
+            "colId": "727c9288-6fd3-4600-9650-9d63a52c0a11",
+            "containerId": "3a854fb4-204b-4b95-9eda-e743a0e1cd2a",
+            "name": "save",
+            "url": "post/save",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-03-02T15:25:36.639Z",
+            "modified": "2024-03-02T17:33:35.773Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzNDU4MGVkYzVmMDlkNTMxOTk1MDgiLCJ1c2VybmFtZSI6Ikp1bmVzIiwibmFtZSI6Ikp1bmFsdmVydG8iLCJpYXQiOjE3MDk0MDAyMTcsImV4cCI6MTcwOTQxMTAxN30.JvgsLaMzXI5u2QcBGav5PAPbcN-nyhFgCQXYTYvAY4I"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "title",
+                        "value": "Animales en peligro de extision"
+                    },
+                    {
+                        "name": "category",
+                        "value": "65e35563edc5f09d5319951e"
+                    },
+                    {
+                        "name": "text",
+                        "value": "Animales que estan en peligro de muerte"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "bc507aa6-743e-4d2c-ac02-82d7fe6b438f",
+            "colId": "727c9288-6fd3-4600-9650-9d63a52c0a11",
+            "containerId": "3339b684-f6c8-4f80-80d2-7c87584e1ef5",
+            "name": "save",
+            "url": "category/save",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-03-02T15:25:36.640Z",
+            "modified": "2024-03-02T17:32:38.877Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Tecnologia"
+                    },
+                    {
+                        "name": "description",
+                        "value": "categoria de Tecnologia"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "eb143359-145b-497d-8210-766b15ba1e33",
+            "colId": "727c9288-6fd3-4600-9650-9d63a52c0a11",
+            "containerId": "3339b684-f6c8-4f80-80d2-7c87584e1ef5",
+            "name": "get",
+            "url": "category/get",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-03-02T15:25:36.641Z",
+            "modified": "2024-03-02T15:25:36.641Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "97512f62-58f3-4d84-9516-12b927ed1f12",
+            "colId": "727c9288-6fd3-4600-9650-9d63a52c0a11",
+            "containerId": "3339b684-f6c8-4f80-80d2-7c87584e1ef5",
+            "name": "update",
+            "url": "category/update/65e35563edc5f09d5319951e",
+            "method": "PUT",
+            "sortNum": 80000,
+            "created": "2024-03-02T15:25:36.642Z",
+            "modified": "2024-03-02T17:32:56.756Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzNDU4MGVkYzVmMDlkNTMxOTk1MDgiLCJ1c2VybmFtZSI6Ikp1bmVzIiwibmFtZSI6Ikp1bmFsdmVydG8iLCJpYXQiOjE3MDk0MDA1NTgsImV4cCI6MTcwOTQxMTM1OH0.sWBhci6xpdI9o35WSMMKbCh6-UtrI4qi7RRRX2yONhM",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Animales"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Categoria donde se hablan de animales"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "4ecd4960-dac2-449c-9761-633c899851e4",
+            "colId": "727c9288-6fd3-4600-9650-9d63a52c0a11",
+            "containerId": "3339b684-f6c8-4f80-80d2-7c87584e1ef5",
+            "name": "delete",
+            "url": "category/delete/65e35cf05e7a8a5c57a11048",
+            "method": "DELETE",
+            "sortNum": 90000,
+            "created": "2024-03-02T15:25:36.643Z",
+            "modified": "2024-03-02T17:36:44.862Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "6eec92de-5cee-4161-9aac-a528ad5792be",
+            "colId": "727c9288-6fd3-4600-9650-9d63a52c0a11",
+            "containerId": "3a854fb4-204b-4b95-9eda-e743a0e1cd2a",
+            "name": "get",
+            "url": "post/get",
+            "method": "GET",
+            "sortNum": 110000,
+            "created": "2024-03-02T15:25:36.644Z",
+            "modified": "2024-03-02T15:25:36.644Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "8cd1028c-a72f-4881-a8e1-01a39c6a4638",
+            "colId": "727c9288-6fd3-4600-9650-9d63a52c0a11",
+            "containerId": "3a854fb4-204b-4b95-9eda-e743a0e1cd2a",
+            "name": "update",
+            "url": "post/update/65e35dd35e7a8a5c57a1105a",
+            "method": "PUT",
+            "sortNum": 120000,
+            "created": "2024-03-02T15:25:36.645Z",
+            "modified": "2024-03-02T17:39:39.302Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzNWQ1NjVlN2E4YTVjNTdhMTEwNGYiLCJ1c2VybmFtZSI6ImZyZWRlZG11bmRvIiwibmFtZSI6IkZyw6lkZXJpYyAiLCJpYXQiOjE3MDk0MDAzMDMsImV4cCI6MTcwOTQxMTEwM30.VPk9Pfv2C4gtRVrdh-F0i42SkHaDS0bcJOeG0ZWSh14",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "title",
+                        "value": "La tecnologia hoy en dia"
+                    },
+                    {
+                        "name": "text",
+                        "value": "Hoy en dia la tecnolgia influye mucho"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "ef8f1f3e-a1fe-4004-b288-6dfe1c0b3386",
+            "colId": "727c9288-6fd3-4600-9650-9d63a52c0a11",
+            "containerId": "3a854fb4-204b-4b95-9eda-e743a0e1cd2a",
+            "name": "delete",
+            "url": "post/delete/65e35dd35e7a8a5c57a1105a",
+            "method": "DELETE",
+            "sortNum": 130000,
+            "created": "2024-03-02T15:25:36.646Z",
+            "modified": "2024-03-02T17:36:04.106Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzNWQ1NjVlN2E4YTVjNTdhMTEwNGYiLCJ1c2VybmFtZSI6ImZyZWRlZG11bmRvIiwibmFtZSI6IkZyw6lkZXJpYyAiLCJpYXQiOjE3MDkzOTkzOTUsImV4cCI6MTcwOTQxMDE5NX0.OwFaCSZIRw5EjgpBYK9HcH3M580pAZ69JoUmQcfl_2E",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "3394be95-8a50-4b38-bd8e-1c085396f9b5",
+            "colId": "727c9288-6fd3-4600-9650-9d63a52c0a11",
+            "containerId": "2e30397f-d454-46f9-ae18-6f0d40765c16",
+            "name": "save",
+            "url": "comment/save",
+            "method": "POST",
+            "sortNum": 140000,
+            "created": "2024-03-02T15:25:36.647Z",
+            "modified": "2024-03-02T17:40:02.040Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "65e15b4bae0e78c50a625a41",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "content",
+                        "value": "Esta tampoco "
+                    },
+                    {
+                        "name": "user",
+                        "value": "65e34580edc5f09d53199508"
+                    },
+                    {
+                        "name": "post",
+                        "value": "65e360ac7e52aacf5f920998"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "5b2890ac-8f56-40f4-bcaa-07b7838e4ec9",
+            "colId": "727c9288-6fd3-4600-9650-9d63a52c0a11",
+            "containerId": "2e30397f-d454-46f9-ae18-6f0d40765c16",
+            "name": "get",
+            "url": "comment/get",
+            "method": "GET",
+            "sortNum": 150000,
+            "created": "2024-03-02T15:25:36.648Z",
+            "modified": "2024-03-02T15:25:36.648Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "2c9f87b0-a5ff-4c1c-b09e-365e13a1e235",
+            "colId": "727c9288-6fd3-4600-9650-9d63a52c0a11",
+            "containerId": "2e30397f-d454-46f9-ae18-6f0d40765c16",
+            "name": "update",
+            "url": "comment/update/65e36462307f55279e97c45f",
+            "method": "PUT",
+            "sortNum": 160000,
+            "created": "2024-03-02T15:25:36.649Z",
+            "modified": "2024-03-02T17:40:46.004Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzNDU4MGVkYzVmMDlkNTMxOTk1MDgiLCJ1c2VybmFtZSI6Ikp1bmVzIiwibmFtZSI6Ikp1YW5pdG8iLCJpYXQiOjE3MDkzOTkwOTgsImV4cCI6MTcwOTQwOTg5OH0.KdQJdD69OHXry76-Fm69UQT8nK4gwejD5r-2QLxee4g",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "content",
+                        "value": "Ahora que lo lei me di cuenta que si sirve"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "ebe84ee8-60f9-48ed-a792-4a7f6edd1820",
+            "colId": "727c9288-6fd3-4600-9650-9d63a52c0a11",
+            "containerId": "2e30397f-d454-46f9-ae18-6f0d40765c16",
+            "name": "delete",
+            "url": "comment/delete/65e36472307f55279e97c463",
+            "method": "DELETE",
+            "sortNum": 180000,
+            "created": "2024-03-02T15:25:36.650Z",
+            "modified": "2024-03-02T17:40:56.220Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "localhost:2008/"
+        }
+    }
+}
